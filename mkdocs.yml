@@ -1,0 +1,110 @@
+site_name: mulberror 的笔记本
+site_url: https://note.mulbx.top
+use_directory_urls: false
+
+theme:
+  name: material
+  language: zh
+  custom_dir: overrides
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.prune
+  icon:
+    repo: fontawesome/brands/git-alt
+    logo: material/notebook-multiple
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  font:
+    text: JetBrains Mono, LXGW WenKai Screen GB Screen 
+    code: JetBrains Mono, Consolas
+  palette:
+    - media: "(prefer-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+    - media: "(prefer-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Light Mode
+
+plugins:
+  - changelog
+  - search
+  # - toc
+  - heti:
+      disable_serve: true
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
+  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: ⚓︎
+      title: 目录
+  - md_in_html
+
+extra_css:
+  - stylesheet/custom.css
+  - stylesheet/extra_changelog.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+  - https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap
+
+extra_javascript:
+  - js/katex.js
+  - js/toc.js
+  - js/anchor.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+# navigations
+nav:
+  - 首页: 
+    - index.md
+  - 计算机科学与技术: 
+    - cs/index.md
+    - 编程基础:
+      - cs/basic-learning/index.md
+      - Python:
+        - cs/basic-learning/python/index.md
+        - UCB CS61A: 
+          - cs/basic-learning/python/cs61a/index.md
+    - 操作系统:
+      - cs/os/index.md
+      - UCB CS162:
+        - cs/os/cs162/index.md
+      - PKU pintos:
+        - cs/os/pku-pintos/index.md
