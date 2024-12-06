@@ -96,12 +96,20 @@ nav:
     - index.md
   - 计算机科学与技术: 
     - cs/index.md
+    - 工具:
+      - cs/tools/index.md
+      - Git:
+        - cs/tools/git/index.md
     - 编程基础:
       - cs/basic-learning/index.md
       - Python:
         - cs/basic-learning/python/index.md
         - UCB CS61A: 
           - cs/basic-learning/python/cs61a/index.md
+    - 数据结构与算法:
+      - cs/data-structure-and-algorithm/index.md
+      - UCB CS61B:
+        - cs/data-structure-and-algorithm/cs61b/index.md
     - 操作系统:
       - cs/os/index.md
       - UCB CS162:
