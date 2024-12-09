@@ -114,5 +114,4 @@ nav:
       - cs/os/index.md
       - UCB CS162:
         - cs/os/cs162/index.md
-      - PKU pintos:
-        - cs/os/pku-pintos/index.md
+        - cs/os/cs162/personal/hw-shell.md
