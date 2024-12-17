@@ -8,6 +8,7 @@ title: "CS162: Operating System"
 
 !!! tip "资料"
     - [cs-plan](https://cs-plan.com/%E5%9F%BA%E7%A1%80%E6%B7%B1%E5%85%A5/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/Systems/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/UCBCS162/): 该作者也讲述了关于他学习该课程的心得，并且自行编写了三个作业的测试脚本。
+    - [CS162](https://cs162.eecs.berkeley.edu/): 该课程的官方网站。
 
 ## 调试
 
