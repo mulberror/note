@@ -77,7 +77,6 @@ markdown_extensions:
 
 extra_css:
   - stylesheet/custom.css
-  - stylesheet/extra_changelog.css
   - https://unpkg.com/katex@0/dist/katex.min.css
   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
@@ -120,3 +119,6 @@ nav:
       - UCB CS162:
         - cs/os/cs162/index.md
         - cs/os/cs162/personal/hw-shell.md
+  - 数学:
+    - 复变函数与积分变换:
+      - math/complex-function-and-integral-transform/index.md
