@@ -119,6 +119,8 @@ nav:
       - UCB CS162:
         - cs/os/cs162/index.md
         - cs/os/cs162/personal/hw-shell.md
+    - 软件工程:
+      - cs/software-engineering/review.md
   - 数学:
     - 复变函数与积分变换:
       - math/complex-function-and-integral-transform/index.md
